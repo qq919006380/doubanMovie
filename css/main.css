@@ -11,7 +11,6 @@ a {
 
 body {
 	font-size: 12px;
-	padding: 10px;
 }
 
 body,
@@ -26,12 +25,15 @@ main>section {
 	overflow-y: scroll;
 	height: calc(100% - 50px);
 	display: none;
+	padding: 10px;
 }
 
 main>section:first-child {
 	display: block;
 }
-
+main>section .loading{
+	text-align: center;
+}
 main>section .loading>.icon-loading {
 	display: inline-block;
 	font-size: 24px;
