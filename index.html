@@ -86,7 +86,7 @@
 					var _this = this
 //					this.$container.find('.loading').show()
 					$.ajax({
-						url: 'http://api.douban.com/v2/movie/top250',
+						url: '://api.douban.com/v2/movie/top250',
 						dataType: 'jsonp',
 						data: {
 							start: _this.index||0,
@@ -176,7 +176,7 @@
 					this.$container.find('.loading').show()
 					$.ajax({
 						type: "get",
-						url: "http://api.douban.com/v2/movie/us_box",
+						url: "://api.douban.com/v2/movie/us_box",
 						dataType: 'jsonp',
 						async: true,
 						data: {
@@ -271,7 +271,7 @@
 					var _this = this
 					$.ajax({
 						type: "get",
-						url: "http://api.douban.com/v2/movie/search",
+						url: "//api.douban.com/v2/movie/search",
 						dataType: 'jsonp',
 						async: true,
 						data: {
